@@ -1,0 +1,21 @@
+git init
+ls
+git status
+ls
+git add p1.py
+git status
+git commit -m "First with app2"
+git commit -help
+git branch images
+git checkout images
+git status
+git add .
+git status
+git commit -m "Added image to Hello World"
+git checkout master
+git status
+git merge images
+git status
+git commit -m "merged with hello-world-images after fixing conflicts"
+doskey /history
+doskey /history >>t1.txt
